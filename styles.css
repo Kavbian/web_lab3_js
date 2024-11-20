@@ -1,0 +1,79 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Шапка */
+header {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Основний контент */
+main {
+    padding: 20px;
+}
+
+/* Секція калькулятора */
+.calculator {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.calculator h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

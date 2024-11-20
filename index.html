@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автобуси</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Автобуси: Розрахунок вартості</h1>
+        <p>Автор: Ім'я Прізвище, Група XYZ, Варіант 7</p>
+    </header>
+    <main>
+        <section class="calculator">
+            <h2>Звичайний автобус</h2>
+            <form id="busForm">
+                <label for="busPassengers">Кількість пасажирів:</label>
+                <input type="number" id="busPassengers" min="1" required>
+                <label for="busPrice">Ціна квитка (грн):</label>
+                <input type="number" id="busPrice" step="0.01" required>
+                <button type="submit">Розрахувати</button>
+            </form>
+            <p id="busResult"></p>
+        </section>
+
+        <section class="calculator">
+            <h2>Скорий автобус</h2>
+            <form id="expressBusForm">
+                <label for="expressPassengers">Кількість пасажирів:</label>
+                <input type="number" id="expressPassengers" min="1" required>
+                <label for="expressPrice">Ціна квитка (грн):</label>
+                <input type="number" id="expressPrice" step="0.01" required>
+                <label for="speed">Швидкість (км/год):</label>
+                <input type="number" id="speed" min="1" required>
+                <button type="submit">Розрахувати</button>
+            </form>
+            <p id="expressBusResult"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024. Усі права захищено.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
